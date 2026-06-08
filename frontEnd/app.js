@@ -1,5 +1,4 @@
-const viteEnv = typeof import.meta !== 'undefined' && import.meta.env ? import.meta.env.VITE_API_BASE_URL : null;
-const API_BASE_URL = viteEnv || 'http://localhost:3013/computerstore';
+const API_BASE_URL = "hw18backend-erhebsg9d8a5b6hm.eastus-01.azurewebsites.net";
 
 // Elementos del DOM
 const customerForm = document.getElementById('customerForm');
