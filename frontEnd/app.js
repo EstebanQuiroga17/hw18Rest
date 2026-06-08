@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3013/computerstore';
+const API_BASE_URL = import.meta.env.production.VITE_API_BASE_URL || 'http://localhost:3013/computerstore';
 
 // Elementos del DOM
 const customerForm = document.getElementById('customerForm');
