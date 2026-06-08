@@ -1,4 +1,4 @@
-const API_BASE_URL = "hw18backend-erhebsg9d8a5b6hm.eastus-01.azurewebsites.net";
+const API_BASE_URL = "hw18backend-erhebsg9d8a5b6hm.eastus-01.azurewebsites.net/computerstore";
 
 // Elementos del DOM
 const customerForm = document.getElementById('customerForm');
